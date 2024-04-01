@@ -1,25 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ //  import Store from './store.js';
+ import Div1 from './Components/comp1.js';
+ import Div2 from './Components/comp2.js'
+ import Div3 from './Components/comp3.js';
+ import Div4 from './Components/comp4.js';
+ import Div5 from './Components/comp5.js';
+ import Div6 from './Components/comp6.js';
+ 
+ 
+   function App() {
+     return (
+      <div className='md'>
+        <Div1 />
+        <Div2 />
+        <Div3 />
+        <Div4 />
+        <Div5 />
+        <Div6 />
+        </div>
+        )
 }
-
-export default App;
+ export default App;
