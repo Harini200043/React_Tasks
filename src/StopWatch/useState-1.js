@@ -13,10 +13,12 @@ const UsestateExample1 = () => {
         },10)
         setIntervalId(id)
     }
+
     const stopTimer = () => {
         clearInterval(interval)
         setIntervalId(null)
     }
+
     const resetTimer=()=>{
         clearInterval(interval)
         setIntervalId(null)
@@ -25,6 +27,7 @@ const UsestateExample1 = () => {
         setSec(0)
         setTimer(0)
     }
+    
     if (timer === 100) {
         setTimer(0)
         setSec((secvalue) => secvalue + 1)
